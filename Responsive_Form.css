@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+input[type="submit"]{
+    width: 97px;
+    
+}
+header{
+    background-color: #9DFF47;
+    width: 100%;
+    line-height: 4;
+    font-size: 20px;
+    color: #20660E;
+}
+input{
+    width: 70%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    height: 40px;
+    font-family: 'Fira Sans', sans-serif;
+    
+}
+label{
+    color: #277A06;
+    font-size: 18px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.button:hover{
+    background-color: #717171;
+    font-family: 'Fira Sans', sans-serif;
+    color:#7EFF5B;
+}
+.button{
+    border: 2px dashed #287F11;
+    background-color: #F5D5D1;
+    font-family: 'Fira Sans', sans-serif;
+    color:#277A06;
+}
+h1{
+    font-family: 'Bree Serif', serif;
+    padding-left: 4%;
+}
+
+div{
+    margin-left: 4%;
+    margin-top: 20px;
+    float: left;
+    width: 40%;
+}
+
+@media only screen and(max-width:450 px){
+    h1{
+        padding-left: 30px;
+        font-family: 'Bree Serif', serif;
+    }
+    label{
+        display: none;
+    }
+    body{
+        background:url("bg.jpg") no-repeat;
+        background-size: 100% 260%;
+    }
+    div{
+        margin-left: 30px;
+        width:100%;
+        margin-top: 20px;
+    }
+}
+
+@media (min-width:450px) and (max-width:900px){
+    label{
+        display: inline-block;
+        width:100%;
+    }
+    body{
+        background:url("bg.jpg") no-repeat;
+        background-size:100% 330%;
+    }
+}
+
+@media all and (min-width:900px){
+    label{
+        display: inline-block;
+        width:25%;
+    }
+    body{
+        background:url("bg.jpg") no-repeat;
+        background-size: 100% 500%;
+    }
+}
